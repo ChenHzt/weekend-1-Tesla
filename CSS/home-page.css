@@ -1,0 +1,49 @@
+#home-showcase{
+    background: url(/media/model-3-hero-desktop.jpg)  no-repeat fixed center;
+    background-size:cover;
+    background-position: 0 -75px;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+#home-showcase h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    display: block;
+    padding-top: 100px;
+    padding-right: 15px;
+    font-family: "gotham-medium";
+} 
+
+
+
+#home-showcase .strip{
+    bottom:67px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#home-showcase .strip .align-center{
+    width:50%;
+    display: inline-block;
+    margin: auto;
+}
+
+
+#home-showcase .detail-boxes-horizontal{
+    width: 70%;
+    display: block;
+    float: left;
+}
+
+
+#home-showcase .order-now-btn{
+    margin: 10px auto;
+    display: block;
+    float: left ;
+}

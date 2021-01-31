@@ -1,0 +1,88 @@
+#order-page{
+    background-color: black;
+    color: #F4F4F4;
+    position: relative;
+    overflow: hidden;
+}
+
+#order-strip{
+    height: 70%;
+    margin: 160px 0;
+    overflow: hidden;
+}
+
+#image-order{
+    background: url("/media/global-order-hero.png") no-repeat center center/cover;
+    background-position: 50px 0;
+    background-size: 100%;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    
+    z-index: 1;
+}
+
+#content-order{
+    width: 50%;
+    float: left;
+    /* padding: 0 60px; */
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+#headline-order{
+    font-family: "gotham-medium";
+    font-size: 28px;
+    font-weight: 500px;
+    line-height: 36px;
+}
+
+#buttons-order{
+    padding:20px 0;
+}
+
+#buttons-order .btn{
+    width: 40%;
+}
+
+#buttons-order .order-btn{
+    background-color: #F4F4F4;
+    border: 3px solid #F4F4F4;
+    color: rgb(23,26,32);
+}
+#buttons-order .compare-btn-order-page{
+    /* background-color: #F4F4F4; */
+    border: 3px solid #F4F4F4;
+    /* color: rgb(23,26,32); */
+}
+
+footer{
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    bottom: 10px;
+    display: inline-block;
+    margin:  0 200px;
+    /* left: 0;
+    right: 0; */
+    /* background-color: blue; */
+
+}
+footer ul{
+    display: block;
+
+
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+footer .footer-items{
+    float: left;
+    color: white;
+    font-family: "gotham-book";
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 12px;
+    padding: 10px;
+}

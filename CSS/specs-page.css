@@ -1,0 +1,71 @@
+#specs-page{
+    background-color: black;
+    color: #F4F4F4;
+    /* position: relative; */
+}
+
+.image-block{
+    background: url("/media/global-spec-hero.png") no-repeat center center/cover;
+    background-position: -50px 190px;
+    
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+
+.info-block{
+    /* position: absolute; */
+    width:50%;
+    height: 100%;
+    float: right;
+}
+
+.btn{
+    /* border: 3px solid white; */
+    background-color: transparent;
+    border-radius: 20px;
+    padding:12px 34px;
+    margin: 3px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    font-family: "gotham-medium";
+    font-size: 12px;
+    font-weight: 400;
+    color:white;
+}
+
+#specs-headline{
+    font-size:28px;
+    margin: 30px;
+    font-family: "gotham-light";
+    line-height: 36px;
+    font-weight: 300;
+}
+
+#specs-headline #bold{
+    font-size:28px;
+    font-family: "gotham-medium";
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.performance-btn{
+    border: 3px solid #f4f4f4;
+}
+
+.standard-btn, .awd-btn{
+    border: 3px solid #393C41;
+}
+
+.compare-btn{
+    border: 3px solid #393C41;
+    background-color: #393C41;
+
+}
+
+#specs-buttons{
+    margin: 30px;
+}

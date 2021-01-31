@@ -1,0 +1,61 @@
+#range-page .side-image{
+    background: url("/media/lhd-range-hero-desktop.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#range-page .side-info{
+    padding: 0 30px;
+    /* background-color: blue; */
+    overflow: hidden;
+    position: relative;
+}
+
+#range-page .page-headline{
+    margin: 30px 0;
+    
+}
+
+#range-page .page-headline .small-headline{
+    margin-top: 2px;
+}
+
+#range-page .strip{
+    position: absolute;
+    bottom:80px;
+    display: block;
+    width: 85%;
+ 
+}
+
+
+
+
+
+#range-page .page-info{
+    
+    /* margin: 35px 0; */
+    /* margin-right: 10px; */
+    line-height: 21px;
+    font-weight: 500;
+    color: rgb(57, 60, 65);
+    /* margin-bottom:130px; */
+
+}
+
+#range-page .map-img-range{
+    width: 90%;
+    margin-top: 20px;
+    display: block;
+}
+
+#range-page #range-buttons{
+    position: absolute;
+    bottom: 90px;
+    overflow:visible;
+    display: inline-block;
+    margin: auto;
+    /* float: left; */
+}
+
+
+

@@ -1,0 +1,41 @@
+#interior-page .side-image{
+    background: url("/media/lhd-interior-hero-desktop.jpg") no-repeat center center/cover;
+    position: relative;
+    overflow:hidden;
+    height: 60%;
+}
+
+#interior-page .detail-boxes-vertical{
+    position: absolute;
+    top:50px;
+    right: 0;
+} 
+
+
+
+#interior-page .side-info{
+    margin: 27px 142px;
+}
+
+#interior-page .info-left-side{
+    float: left;
+    overflow:visible;
+}
+
+
+#interior-page .page-info{
+    float:left;
+    max-width: 65%;
+    margin: 0 30px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+#interior-page .buttons{
+
+    overflow:visible;
+    display: inline-block;
+    margin: 40px auto;
+
+}
+

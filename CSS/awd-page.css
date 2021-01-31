@@ -1,0 +1,51 @@
+
+#awd-page .side-image{
+    background: url("/media/lhd-awd-hero-desktop.jpg") no-repeat center center/cover;
+    position: relative;
+    z-index: -1;
+
+}
+
+#awd-page .side-info{
+    margin: 27px 142px;
+}
+
+#awd-page .info-left-side{
+    float: left;
+    overflow:visible;
+}
+
+.weather-icon{
+    display: inline;
+    margin-bottom: -10px;
+    
+}
+
+#awd-page .strip{
+    position: absolute;
+    bottom:80px;
+    display: block;
+    width: 80%;
+ 
+}
+#awd-page .page-headline{
+    margin: 20px 0;
+}
+
+#awd-page .page-info{
+    float:left;
+    max-width: 57%;
+    /* display: block; */
+    margin: 20px 140px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+#awd-page .buttons{
+
+    overflow:visible;
+    display: inline-block;
+    margin: 20px auto;
+
+}
+

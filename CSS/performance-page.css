@@ -1,0 +1,52 @@
+#performance-page .side-image{
+    background: url("/media/lhd-performance-hero-desktop.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#performance-page .side-info{
+    margin: 27px 142px;
+}
+
+#performance-page .info-left-side{
+    float: left;
+    overflow:visible;
+}
+
+
+#performance-page .page-info{
+    float:left;
+    max-width: 65%;
+    margin: 20px 30px;
+
+}
+
+#performance-page .page-headline{
+    margin: 20px 0;
+    
+}
+
+#performance-page .strip{
+    position: absolute;
+    bottom:80px;
+    display: block;
+    width: 80%;
+ 
+}
+
+
+#performance-page .buttons{
+
+    overflow:visible;
+    display: inline-block;
+    margin: 20px auto;
+
+}
+
+#range-page #range-buttons{
+    position: absolute;
+    bottom: 90px;
+    overflow:visible;
+    display: inline-block;
+    margin: auto;
+    /* float: left; */
+}

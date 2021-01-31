@@ -1,0 +1,76 @@
+#safety-page .side-image{
+    background-color: #F2F2F2;
+    overflow: hidden;
+    position: relative;
+}
+
+#safety-page #safety-image{
+    background: url("/media/model_3_safety_hero.png") no-repeat center center/cover;
+    position: absolute;
+    left: -21%;
+    /* left: -50%; */
+    width: 103%;
+    height: 103%;
+}
+
+#safety-page .side-info{
+    padding: 0 50px;
+    /* background-color: blue; */
+}
+
+#safety-page .page-headline{
+    margin: 48px 0;
+    
+}
+
+#safety-page .page-headline .small-headline{
+    margin-top: 2px;
+}
+
+#safety-page .page-info{
+    
+    margin: 35px 0;
+    margin-right: 10px;
+    margin-bottom:130px;
+
+}
+
+#safety-page .explain-text{
+    border-left: 2px solid black;
+    padding-left: 10px ;
+    font-size: 14px;
+    font-family: "gotham-medium";
+    font-weight: 500;
+}
+
+#safety-page #ip{
+    position:absolute;
+    height: 34%;
+    top: 90px;
+    left:120px
+
+}
+
+#safety-page #rs{
+    position:absolute;
+    height: 20%;
+    top: 30px;
+    left:330px
+
+}
+
+#safety-page #vlrr{
+    position: absolute;;
+    height: 20%;
+    bottom: 130px;
+    left:370px;
+}
+#safety-page #vlrr-content{
+    position: absolute;
+    bottom: 130px;
+    left: 370px;
+    border: none;
+    
+    
+
+}

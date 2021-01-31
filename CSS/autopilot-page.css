@@ -1,0 +1,54 @@
+#autopilot-page .side-image{
+    /* background: url("/media/WCL9WK_autopilot.mp4-2000_QQHSUM.mp4") no-repeat center center/cover; */
+    position: relative;
+    overflow:hidden;
+    height: 65%;
+}
+#my-video{
+    position: absolute;
+    top: -50%;
+    /* left: -50%; */
+    width: 200%;
+    height: 200%;
+}
+
+
+#autopilot-page .side-info{
+    margin: 27px 142px;
+}
+
+#autopilot-page .info-left-side{
+    float: left;
+    overflow:visible;
+}
+
+
+#autopilot-page .page-info{
+    float:left;
+    max-width: 65%;
+    margin: 0 30px;
+
+}
+
+#autopilot-page li:last-child .detail-box-headline img{
+    float: left;
+    display: inline;
+}
+
+#autopilot-page li:last-child .detail-box-headline span  {
+    float: left;
+    /* display: block; */
+    font-size: 14px;
+    max-width: 80px;
+    padding: 5px;
+    line-height: 15px;
+}
+
+#autopilot-page .buttons{
+
+    overflow:visible;
+    display: inline-block;
+    margin: 40px auto;
+
+}
+

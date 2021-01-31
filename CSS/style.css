@@ -1,0 +1,288 @@
+
+@font-face{
+    font-family: 'gotham-book';
+    src: url(/font/GothamBook.otf);
+}
+
+@font-face{
+    font-family: 'gotham-bold';
+    src: url(/font/GothamBold.ttf);
+}
+
+@font-face{
+    font-family: 'gotham-medium';
+    src: url(/font/GothamMedium.ttf);
+}
+
+@font-face{
+    font-family: 'gotham-light';
+    src: url(/font/GothamLight.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "gotham-medium"; */
+    overflow-x: hidden;
+    letter-spacing:  0.5px;
+}
+
+
+body{
+    height: 900vh;
+    width: 100vw;
+
+    scroll-snap-type: block;
+}
+
+.page-section{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+
+.page-section .strip{
+    position: absolute;
+    display: block;
+}
+
+.page-section .strip .align-center{
+    width:50%;
+    display: inline-block;
+    margin: auto;
+}
+
+.icon{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+/************** detail box**************** */
+/* general */
+.detail-boxes{
+    display: inline-block;
+    
+}
+.detail-boxes li{
+    
+    padding: 7px 10px;
+}
+
+.detail-boxes li .detail-box-headline{
+    font-size: 28px;
+    display: block;
+    font-family: "gotham-medium" ;
+    font-weight: 500;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+.detail-boxes li .detail-box-info {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "gotham-book";
+    text-align: left;
+    line-height: 18px;
+    margin-top: 12px;
+}
+
+.detail-boxes li:first-child{
+    border: none;
+}
+/* horizontal */
+
+.detail-boxes-horizontal{
+    display: inline-block;
+    
+}
+.detail-boxes-horizontal li{
+    float: left;    
+    text-align: center;
+    border-left: 1px solid white ;
+    width: calc(100%/3);
+
+}
+
+/* vertical */
+.detail-boxes-vertical{
+    display: block;
+    
+}
+
+.detail-boxes-vertical li{
+    position: relative;
+    width: 52%;
+    
+}
+
+.detail-boxes-vertical .border-top{
+    border-top: 1px solid rgb(57,60,65);
+    padding: 10px 0;
+    left: 0;
+    right:0;
+    width: 20%;
+}
+
+/* dark detail-box */
+
+.detail-boxes-dark li{
+    color:  rgb(57,60,65);
+}
+.detail-boxes-dark .border-top-dark{
+    border-color: rgb(57,60,65);
+}
+
+/* light detail-box */
+.detail-boxes-light li{
+    color:  white;
+    border-color: white;
+}
+.detail-boxes-light .border-top-light{
+    border-color: white;
+}
+
+/* detail-box text align left */
+.detail-boxes-align-left li .detail-box-headline{
+    text-align: left;
+}
+.detail-boxes-align-left li .detail-box-info{
+    text-align: left;
+}
+
+/* detail-box text align center */
+.detail-boxes-align-center li .detail-box-headline{
+    text-align: center;
+}
+.detail-boxes-align-center li .detail-box-info{
+    text-align: center;
+}
+
+
+/* **************buttons**************** */
+.btn-light{
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+    padding:12px 34px;
+    text-align: center;
+    font-family: "gotham-medium";
+    font-size: 12px;
+    font-weight: 400;
+
+    color:white;
+}
+
+
+.btn-light:hover{
+    background-color: white;
+    color: rgb(23,26,32);
+}
+
+.btn-dark{
+    border: 3px solid rgb(23,26,32);
+    background-color: transparent;
+    border-radius: 20px;
+    padding:10px 30px;
+    text-align: center;
+    font-family: "gotham-medium";
+    font-size: 12px;
+    font-weight: 400;
+    color:rgb(23,26,32);
+}
+
+.btn-dark:hover{
+    background-color: rgb(23,26,32);
+    color: white;
+}
+
+
+.learn-more-btn{
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    font-family: "gotham-medium";
+    font-weight: 400;
+    color: rgb(23,26,32);
+}
+
+.learn-more-btn span:hover{
+    background-color:rgb(23,26,32);
+    color:white;
+}
+
+.learn-more-btn span{
+    border: 3px solid black;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+
+/* *************page components************* */
+
+.page-headline .small-headline{
+    font-family: "gotham-light";
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.page-headline .large-headline{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "gotham-medium";
+}
+
+.page-info{
+    font-family: "gotham-book";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* horizontal page */
+.horizontal-sections .side-info{
+    width: calc(100%/3);
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.horizontal-sections .side-image{
+    width: calc((100%/3)*2);
+    height: 100%;
+    float: left;
+}
+
+
+/* vertical page */
+.vertical-sections{
+    overflow:hidden;
+}
+.vertical-sections .side-info{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    
+}
+.vertical-sections .side-image{
+    height: 57%;
+    width: 100%;
+    
+}
+
